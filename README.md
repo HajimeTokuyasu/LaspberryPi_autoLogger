@@ -10,7 +10,7 @@ hoge$vim ~/.msmtprc
 
 
 hoge$vim .muttrc
-set sendmail="/usr/bin/msmtp
+
 
 hoge$sudo chmod 600 .msmtprc
 

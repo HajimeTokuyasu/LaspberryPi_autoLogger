@@ -24,13 +24,11 @@ set sendmail="/usr/bin/msmtp
 
 hoge$sudo chmod 600 .msmtprc
 
+ここまででメールが出るようになる
 
 hoge$vim ip_autosender.sh
 
-! /bin/sh
-sleep 10s #調整してね
-ifconfig > /home/pi/ip #どこでも
-mutt -s IP_Automatic_Deriver_Service omaeno@gmail.com < /home/pi/ip
+シェルスクリプトを実行できるようにしよう
 
 hoge$cp ip_autosender.sh /etc/profile.d/ip_autosender.sh
 hoge$sudo chmod +x /etc/profile.d/ip_autosender.sh

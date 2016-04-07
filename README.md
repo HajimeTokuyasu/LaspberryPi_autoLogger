@@ -6,17 +6,7 @@ hoge$sudo apt-get install msmtp mutt
 
 hoge$vim ~/.msmtprc
 
-account default
-host smtp.gmail.com
-port 587
-user omaeno
-password PASSWORD
-from hogehoge@gmail.com
-tls on
-tls_starttls on
-tls_certcheck off
-auth on
-logfile ~/.msmtp.log
+
 
 
 hoge$vim .muttrc

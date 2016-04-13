@@ -21,6 +21,7 @@ hoge$vim ip_autosender.sh
 シェルスクリプトを実行できるようにしよう
 
 hoge$cp ip_autosender.sh /etc/profile.d/ip_autosender.sh
+
 hoge$sudo chmod +x /etc/profile.d/ip_autosender.sh
 
 hoge$sudo reboot
